@@ -124,7 +124,7 @@ function update() {
 
 Go ahead and run the program and you should have something like this
 
-[Hey ho](https://repl.it/@yevbar/3D-Start)
+[We made something!](https://repl.it/@yevbar/3D-Start)
 
 While there may be a black box with nothing in it, the renderer is working and it's all pitch black because we didn't create anything to look at. Well, let's change that!
 
@@ -170,7 +170,7 @@ If you run it now, you still won't be able to see the box and it's not because o
 
 _Now_, you can see your beautiful creation
 
-[Hey ho again](https://repl.it/@yevbar/3D-First-Mesh)
+[We made a mesh!](https://repl.it/@yevbar/3D-First-Mesh)
 
 While you can continue with BasicMaterial, I'd like to stick with LambertMaterial so I'm able to use lighting. To use lighting, let's turn the material type back to `MeshLambertMaterial` and add a lighting to the top with our other declarations
 
@@ -193,7 +193,7 @@ scene.add(lighting);
 
 If you go and run it now, you should be able to see a beautiful cube
 
-[Waat, it's a box!](https://repl.it/@yevbar/3D-First-Mesh-With-Lighting)
+[Woah it's a box!](https://repl.it/@yevbar/3D-First-Mesh-With-Lighting)
 
 So far we haven't really done anything in our update function aside from render the scene over and over again so, let's add something in. With all the objects so far, we've been setting and modifying their positions so why don't we play around with their _rotation_
 
@@ -210,7 +210,7 @@ renderer.render(scene, camera);
 
 The values I'm adding are very small because the unit used for angles is a [radian](http://mathworld.wolfram.com/Radian.html) and this is enough to make something pretty.
 
-[Check out my rotating cube!](https://repl.it/@yevbar/3D-First-Mesh-Woah)
+[Check out the rotating cube!](https://repl.it/@yevbar/3D-First-Mesh-Woah)
 
 Now that we have an object we can reference to, let's add in some keybinds and movements. At the top, let's go and declare a "keyboard" object
 
@@ -339,7 +339,7 @@ if (keyboard[68]) {
 
 Now we can move with WASD and also rotate with the left/right arrow keys
 
-[woah, that's pretty cool](https://repl.it/@yevbar/3D-With-Rotation)
+[Check out this rotation](https://repl.it/@yevbar/3D-With-Rotation)
 
 Since we're working on making the environment more enjoyable and playable, let's add in a floor that a game can happen on. We can have the game happen without a floor but having a floor is nice.
 
@@ -367,8 +367,6 @@ scene.add(floor);
 ```
 
 As before, we use the LambertMaterial so that the light can shine on it. If you look inside the material arguments, you'll see that I included a "wireframe: true" and this gives you a cool wired design
-
-[insert screenshot of wireframe floor]
 
 What is nice about including the floor is that moving around can feel better as there's now a ground to visually reference movement to. The arguments in the PlaneGeometry represent width, height, and the othe r values are what determine the number of lines shown. Go ahead and see what happens when you use smaller or bigger numbers.
 
@@ -477,7 +475,7 @@ meshes.map(m => m.move());
 
 And now we can channel our inner Goku
 
-[wowza inner goku](https://repl.it/@yevbar/3D-With-Spheres)
+[Kamehameha!](https://repl.it/@yevbar/3D-With-Spheres)
 
 While this is certainly cool, the spheres overlap a bit because this is triggered by a keydown event rather than a keypress event so let's change that. First, we'll add a keypress event
 
@@ -593,4 +591,4 @@ Math.floor(Date.now() / 1000) % 2 === 0
 
 So, in our `update()` function, let's slap that in
 
-```
+*CURRENT END OF PROGRESS*
