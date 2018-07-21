@@ -210,7 +210,7 @@ renderer.render(scene, camera);
 
 The values I'm adding are very small because the unit used for angles is a [radian](http://mathworld.wolfram.com/Radian.html) and this is enough to make something pretty.
 
-[woah](https://repl.it/@yevbar/3D-First-Mesh-Woah)
+[Check out my rotating cube!](https://repl.it/@yevbar/3D-First-Mesh-Woah)
 
 Now that we have an object we can reference to, let's add in some keybinds and movements. At the top, let's go and declare a "keyboard" object
 
@@ -293,7 +293,7 @@ To make the visuals a bit cleaner, let's also change the point at which the is l
 camera.lookAt(new THREE.Vector3(0,2,0));
 ```
 
-[yo it moves!](https://repl.it/@yevbar/3D-With-Movement)
+[Now you can move!](https://repl.it/@yevbar/3D-With-Movement)
 
 While it's nice to be able to move around, it would be nice if we could move around and also rotate like we're an actual avatar walking around. To make that happen, we're going to add in another keybind to rorate the camera about an axis and then, in the conditionals that move the camera around, we're going to multiply the speed by a factor of a trig function.
 
