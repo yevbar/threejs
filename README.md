@@ -59,9 +59,7 @@ window.onload = init;
 
 The very last line tells the browser to run the `init` function when the page loads which prints "Hello World!" to the console then runs the update function.
 
-'update' starts with a 'requestAnimationFrame` and this has the program run the update method on every frame. If you inspect element and check out the console in your browser. you should see that.
-
-[include screenshot of inspect element]
+'update' starts with a 'requestAnimationFrame` and this has the program run the update method on every frame. If you *`Inspect Element`* and check out the console in your browser. you should see that.
 
 If you let it run for too long, it may lag your browser a bit since it's just printing the same thing over and over again at a very fast rate. Feel free to close the tab since there's nothing to see just yet.
 
