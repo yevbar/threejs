@@ -8,9 +8,7 @@ The main tool we'll be using for this is [Three.js](https://github.com/mrdoob/th
 
 While we can into the detail of WwebGL and so forth, we should really just dive right in and make something!
 
-To start, let's spin 
-
-<include spiel on creating HTML/CSS/JS repl>
+To start, let's spin a [HTML/CSS/JS Repl](https://repl.it/languages/html)
 
 Before we can use Three.js in our website we need to obtain it somehow. The two possible approaches we have are
 
@@ -25,7 +23,21 @@ The simpler and more proficient approach is the second one where we insert a lin
 
 Let's put that at the bottom of our <head> element and now our index.html should look like this
 
-<include screenshot or code snippet of index.html with three.js>
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://threejs.org/build/three.min.js"></script>
+  </head>
+  <body>
+    <script src="index.js"></script>
+  </body>
+</html>
+```
 
 At this point, we have everything we need  in order to use Three.js in our program! Click on index.js in our file tree and you should see a blank file where we'll write all our Javascript for this project.
 
