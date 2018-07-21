@@ -1,14 +1,14 @@
 There are plenty of awesome websites and apps out there but they're, more often than not, only two dimensional. What we're going to do today is make something *three* dimensional!
 
-[include picture of final product]
-
 All we need to make something this awesome is some HTML and Javascript so, really, anyone can make a 3D hack easily.
 
 The main tool we'll be using for this is [Three.js](https://github.com/mrdoob/three.js/), which is an easy to use, lightweight, 3D library.
 
-[include logo of three.js or something]
+![](threejs.png)
 
 While we can into the detail of WwebGL and so forth, we should really just dive right in and make something!
+
+To start, let's spin 
 
 <include spiel on creating HTML/CSS/JS repl>
 
